@@ -49,7 +49,7 @@ def _start(client, message):
                InlineKeyboardButton("My Dev🤠", url=f"https://t.me/pro_editor_tg"),
                InlineKeyboardButton("Movie group 1", url="https://t.me/cma_grp")
             ],
-            [. 
+            [ 
                InlineKeyboardButton("Movie group 2", url="https://t.me/Amc_grp")
            ]]
         ),
