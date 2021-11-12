@@ -47,10 +47,10 @@ def _start(client, message):
             ],
             [
                InlineKeyboardButton("My Dev🤠", url=f"https://t.me/pro_editor_tg")
-               InlineKeyboardButton("Movie group 1", url=f"https://t.me/cma_grp")
+               InlineKeyboardButton("Movie group 1", url="https://t.me/cma_grp")
             ],
             [. 
-               InlineKeyboardButton("Movie group 2", url=f"https://t.me/Amc_grp")
+               InlineKeyboardButton("Movie group 2", url="https://t.me/Amc_grp")
            ]]
         ),
         reply_to_message_id=message.message_id,
@@ -102,7 +102,7 @@ def map(pos):
     elif pos == len(tr.HELP_MSG) - 1:
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [[
-               InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+               InlineKeyboardButton("➕ Add me to your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
             ],
             [
                InlineKeyboardButton("©️ Channel", url=f"https://t.me/Cml_links"),
@@ -110,6 +110,10 @@ def map(pos):
             ],
             [
                InlineKeyboardButton("My Dev🤠", url=f"https://t.me/pro_editor_tg")
+               InlineKeyboardButton("Movie group 1", url="https://t.me/cma_grp")
+            ],
+            [. 
+               InlineKeyboardButton("Movie group 2", url="https://t.me/Amc_grp")
            ]]
     else:
         button = [
