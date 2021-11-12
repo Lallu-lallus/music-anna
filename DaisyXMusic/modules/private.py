@@ -112,7 +112,7 @@ def map(pos):
                InlineKeyboardButton("My Dev🤠", url=f"https://t.me/pro_editor_tg"),
                InlineKeyboardButton("Movie group 1", url=f"https://t.me/cma_grp")
             ],
-            [. 
+            [
                InlineKeyboardButton("Movie group 2", url=f"https://t.me/Amc_grp")
            ]]
     else:
